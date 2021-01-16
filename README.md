@@ -19,13 +19,13 @@ Usage
        3. Archive the model files
 
            cd yolov5_mar
-           zip -r ../yolov5.mar .
+           zip -r ../yolo5.mar .
            cd ..
 
        4. Host the yolov5 model
 
            mkdir model_store
-           mv yolov5.mar model_store/.
+           mv yolo5.mar model_store/.
 
        5. Run the server
           
