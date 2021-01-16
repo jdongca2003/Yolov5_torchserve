@@ -1,0 +1,11 @@
+{
+  "createdOn": "16/01/2021 01:59:46",
+  "runtime": "python",
+  "model": {
+    "modelName": "yolo5",
+    "serializedFile": "yolov5x.pt",
+    "handler": "Yolov5_handler",
+    "modelVersion": "1.0"
+  },
+  "archiverVersion": "0.3.0"
+}
