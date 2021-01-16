@@ -44,12 +44,15 @@ Usage
 Performance
 ===========
 
-[Coco 2017 Val Images(5K)](http://images.cocodataset.org/zips/val2017.zip) is used to test throughput/latency in the above setup.
+[Coco 2017 Val Images(5K)](https://cocodataset.org/#download) is used to test throughput/latency in the above setup.
 
        1. Server machine: Intel xeon Gold 6159 CPU@2.1, 2 Tesla P4 with CentOS 7
        2. Test setup
-          a. 10 http clients in parallel. Each client which runs in other machine sends 500 images sequentially. Thoughput: 26 images/second  Average latency: 384 millsec/request.
-          b. Native torch program without torchserve. Run two processes (batch_size: 10). Each one has own gpu and dataset (#images: 2500). Throughput: 26 images/second.
+          a. 10 http clients in parallel. Each client which runs in other machine sends 500 images sequentially. 
+             Thoughput: 26 images/second  Average latency: 384 millsec/request
+
+          b. Native torch program without torchserve. Run two processes (batch_size: 10). Each one has own gpu and dataset (#images: 2500). 
+             Throughput: 26 images/second.
           
 Reference
 ===========
