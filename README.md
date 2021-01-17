@@ -49,7 +49,7 @@ Performance
        1. Server machine: Intel xeon Gold 6159 CPU@2.1, 2 Tesla P4 with CentOS 7
        2. Test setup
           a. 10 http clients in parallel. Each client which runs in other machine sends 500 images sequentially. 
-             Thoughput: 26 images/second  Average latency: 384 millisec/request
+             Throughput: 26 images/second  Average latency: 384 millisec/request
 
           b. Native torch program (yolov5_mar/simple_batch_test.py) without torchserve. Run two processes (batch_size: 10). Each one has own gpu and dataset (#images: 2500). 
              Throughput: 26 images/second.
