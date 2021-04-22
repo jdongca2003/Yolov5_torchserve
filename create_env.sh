@@ -11,7 +11,7 @@ source activate torchServe
 
 #install dependencies
 pip install -U -r requirements/torch_cu110_linux.txt
-pip install -U -r requirements/productions.txt
+pip install -U -r requirements/production.txt
 
 #install torchserve and torch-model-archiver
 pip install torchserve torch-model-archiver
